@@ -4,7 +4,10 @@
      vFloat vfmodf(vFloat x, vFloat y);
      void vvfmodf(float *z, const float *y, const float *x, const int *n);
      void vvfmod(double *z, const double *y, const double *x, const int *n);
+
+Compiler : gcc -framework Accelerate source.c -o exec.out
 #endif
+     
 
 
 
