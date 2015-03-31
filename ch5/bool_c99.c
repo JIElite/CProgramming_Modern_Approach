@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdbool.h>
 
 int main(){ 
 	
@@ -11,9 +12,20 @@ int main(){
 	_Bool flag2 = -1;	
 	_Bool flag3 = 0;
 
+	/* 要使用下列這種 type 需要 #include<stdbool.h> */
+
+	bool flag4 = 5;
+	bool flag5 = -1;
+	bool flag6 = 0;
+
 	printf("flag1 = %u\n", flag1);
 	printf("flag2 = %u\n", flag2);
 	printf("flag3 = %u\n", flag3);
+
+	printf("flag4 = %u\n", flag4);
+	printf("flag5 = %u\n", flag5);
+	printf("flag6 = %u\n", flag6);
+
 
 	return 0;
 }
