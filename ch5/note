@@ -1,0 +1,10 @@
+
+# Note For Chapter 5 
+
+
+## 在使用 if 的時候，如果錯把 == 寫成 = 要怎麼用編譯器偵錯？
+
+* -Wall
+* -Wparentheses
+
+

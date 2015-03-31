@@ -12,7 +12,11 @@ int main(){
 	_Bool flag2 = -1;	
 	_Bool flag3 = 0;
 
-	/* 要使用下列這種 type 需要 #include<stdbool.h> */
+	/* 要使用下列這種 type 需要 #include<stdbool.h> 
+	 *
+	 * 但是要注意，如果在其他地方以經 define bool 這樣的字，
+	 * 會出現編譯錯誤
+	 */
 
 	bool flag4 = 5;
 	bool flag5 = -1;
